@@ -1,0 +1,31 @@
+<table><tr><td> <em>Assignment: </em> Sample Flask App and Readings</td></tr>
+<tr><td> <em>Student: </em> Pavan Kumar Kota Ravi (pk639)</td></tr>
+<tr><td> <em>Generated: </em> 10/30/2022 11:52:41 PM</td></tr>
+<tr><td> <em>Grading Link: </em> <a rel="noreferrer noopener" href="https://learn.ethereallab.app/homework/IS601-005-F22/sample-flask-app-and-readings/grade/pk639" target="_blank">Grading</a></td></tr></table>
+<table><tr><td> <em>Instructions: </em> <ol><li>&nbsp;Follow the slides from class.&nbsp;</li><li>&nbsp;Get the sample app deployed to Heroku dev</li><li>&nbsp;Once finished with the slides create a pull request from the lesson branch to dev (don't close it yet)&nbsp;</li><li>&nbsp;Create an m6_submission.md file in the same directory as the flask sample app&nbsp;</li><li>&nbsp;Fill in the deliverables below&nbsp;</li><li>&nbsp;Generate the markdown and paste the content into the new md file&nbsp;</li><li>&nbsp;git add/commit/push&nbsp;</li><li>&nbsp;Complete the pull request&nbsp;</li><li>&nbsp;Create a pull request from dev to prod&nbsp;</li><li>&nbsp;Complete the merge&nbsp;</li><li>&nbsp;Locally checkout dev&nbsp;</li><li>&nbsp;git pull the latest dev changes&nbsp;</li><li>&nbsp;On GitHub navigate to the location of the m6_submission.md file from the prod branch&nbsp;</li><li>&nbsp;Grab that direct link and submit it to Canvas</li></ol></td></tr></table>
+<table><tr><td> <em>Deliverable 1: </em> Proof App has been deployed </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="http://via.placeholder.com/400x120/009955/fff?text=Complete"></td></tr>
+<tr><td><table><tr><td> <em>Sub-Task 1: </em> Screenshot the output of the app (including the url) showing it's running from Heroku dev</td></tr>
+<tr><td><table><tr><td><img width="768px" src="https://user-images.githubusercontent.com/113547463/198926986-92c13385-ee1c-49b3-a975-5bbf76ed73fe.png"/></td></tr>
+<tr><td> <em>Caption:</em> <p>Screenshot of the output of the app (including the url) showing it&#39;s running<br>from Heroku dev<br></p>
+</td></tr>
+</table></td></tr>
+<tr><td> <em>Sub-Task 2: </em> Add a direct link to the app here (prod url)</td></tr>
+<tr><td> <a rel="noreferrer noopener" target="_blank" href="https://is601-pk639-prod.herokuapp.com">https://is601-pk639-prod.herokuapp.com</a> </td></tr>
+</table></td></tr>
+<table><tr><td> <em>Deliverable 2: </em> Misc </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="http://via.placeholder.com/400x120/009955/fff?text=Complete"></td></tr>
+<tr><td><table><tr><td> <em>Sub-Task 1: </em> Add a link to the pull request from Flask-Sample-HW to Dev</td></tr>
+<tr><td> <a rel="noreferrer noopener" target="_blank" href="https://github.com/Kotapavankumar1/IS601-005/pull/10">https://github.com/Kotapavankumar1/IS601-005/pull/10</a> </td></tr>
+<tr><td> <em>Sub-Task 2: </em> Did you have any issues during setup and if so how did you resolve them, otherwise what did you learn?</td></tr>
+<tr><td> <em>Response:</em> <p>Faced difficulty in activating virtual environment, resolved it by setting execution policy. Learnt<br>how to setup an environment for CI/CD.<br></p><br></td></tr>
+</table></td></tr>
+<table><tr><td> <em>Deliverable 3: </em> Readings </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="http://via.placeholder.com/400x120/009955/fff?text=Complete"></td></tr>
+<tr><td><table><tr><td> <em>Sub-Task 1: </em> What can you tell me about docker? Describe the various steps needed to get an app ran inside a docker container in your own words</td></tr>
+<tr><td> <em>Response:</em> <div>An open platform for creating, distributing, and executing programs is Docker. You may<br>divide your apps from your infrastructure with the help of Docker, allowing for<br>rapid software delivery.</div><div><br></div><div>You can manage your infrastructure using Docker in the same manner<br>that you manage your apps. You may drastically shorten the time between developing<br>code and executing it in production by utilizing Docker's methodology for shipping, testing,<br>and deploying code rapidly.</div><div><br></div><div>steps to create An API is to</div><div>firstly we havet to<br>copy the code to container</div><br></td></tr>
+<tr><td> <em>Sub-Task 2: </em> What is Heroku? Why do you feel it was chosen for this class?</td></tr>
+<tr><td> <em>Response:</em> <div>Heroku is a cloud Platform as a Service that uses containers (PaaS). Modern<br>apps are deployed, managed, and scaled by developers using Heroku. this platform provides<br>developers with the quickest route to releasing their apps onto the market since<br>it is stylish, adaptable, and simple to use.<br></div><div><br></div><div><div>Heroku is highly helpful to developers.<br>When it comes to beginners who want to learn about software deployment and<br>hosting, it is an excellent place to start. Heroku is free for new<br>developers. This is suitable for hosting individual projects and proof of ideas for<br>students so that is the reason why i feel heroku is choosen for<br>class.</div><div><br></div></div><br></td></tr>
+<tr><td> <em>Sub-Task 3: </em> What is flask? List a few things you learned about it</td></tr>
+<tr><td> <em>Response:</em> <div>A WSGI framework is what Flask is. This stands for Web Server Gateway<br>Interface, which is thankfully pronounced "whiskey." In essence, this is a method for<br>web servers to send requests to frameworks or web apps. The WSGI external<br>library and the Jinja2 template engine are prerequisites for Flask's operation.</div><div>I learned knowledge<br>about routing and modular programming.<br></div><br></td></tr>
+<tr><td> <em>Sub-Task 4: </em> What is the difference between a Dockerfile and a Github Action .yml file?</td></tr>
+<tr><td> <em>Response:</em> <p>The tech stack&#39;s &quot;Virtual Machine Platforms &amp; Containers&quot; area includes Docker, whereas &quot;Code<br>Collaboration &amp; Version Control&quot; is where GitHub mostly fits.<br></p><br></td></tr>
+</table></td></tr>
+<table><tr><td><em>Grading Link: </em><a rel="noreferrer noopener" href="https://learn.ethereallab.app/homework/IS601-005-F22/sample-flask-app-and-readings/grade/pk639" target="_blank">Grading</a></td></tr></table>
