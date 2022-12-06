@@ -195,6 +195,8 @@ def edit():
 
 @company.route("/delete", methods=["GET"])
 def delete():
+    #pk639
+    #12/4/2022
     # TODO delete-1 delete company by id (unallocate any employees)
     # TODO delete-2 redirect to company search
     # TODO delete-3 pass all argument except id to this route
