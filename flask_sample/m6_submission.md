@@ -1,4 +1,4 @@
-<table><tr><td> <em>Assignment: </em> Sample Flask App and Readings</td></tr>
+    <table><tr><td> <em>Assignment: </em> Sample Flask App and Readings</td></tr>
 <tr><td> <em>Student: </em> Pavan Kumar Kota Ravi (pk639)</td></tr>
 <tr><td> <em>Generated: </em> 10/30/2022 11:52:41 PM</td></tr>
 <tr><td> <em>Grading Link: </em> <a rel="noreferrer noopener" href="https://learn.ethereallab.app/homework/IS601-005-F22/sample-flask-app-and-readings/grade/pk639" target="_blank">Grading</a></td></tr></table>
