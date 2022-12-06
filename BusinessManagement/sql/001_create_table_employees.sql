@@ -1,3 +1,4 @@
+-- Active: 1663472091486@@db.ethereallab.app@3306@pk639
 CREATE TABLE
     IS601_MP2_Employees(
         id int auto_increment PRIMARY KEY,
@@ -9,3 +10,4 @@ CREATE TABLE
         created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
         modified TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
     )
+    
