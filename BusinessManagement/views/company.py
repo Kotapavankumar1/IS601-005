@@ -76,6 +76,8 @@ def add():
     form = CompanyForm(request.form)
     if request.method == "POST":
         # TODO add-1 retrieve form data for name, address, city, state, country, zip, website
+        #pk 639 
+        #12/4/2022
         name = form.name.data
         address = form.address.data
         city = form.city.data
@@ -84,26 +86,38 @@ def add():
         state = request.form.get("state", None)
         country = request.form.get("country", None)
         # TODO add-2 name is required (flash proper error message)
+        #pk 639 
+        #12/4/2022
         if name == '' or name == None:
             flash("Name is required", "danger")
             return redirect("add")
         # TODO add-3 address is required (flash proper error message)
+        #pk 639 
+        #12/4/2022
         if address == '' or address == None:
             flash("Address is required", "danger")
             return redirect("add")
         # TODO add-4 city is required (flash proper error message)
+        #pk 639 
+        #12/4/2022
         if city == '' or city == None:
             flash("City is required", "danger")
             return redirect("add")
         # TODO add-5 state is required (flash proper error message)
+        #pk 639 
+        #12/4/2022
         if state == '' or state == None:
             flash("State is required", "danger")
             return redirect("add")
         # TODO add-6 country is required (flash proper error message)
+        #pk 639 
+        #12/4/2022
         if country == '' or country == None:
             flash("Country is required", "danger")
             return redirect("add")
         # TODO add-7 website is not required
+        #pk 639 
+        #12/4/2022
         if website == '':
             website = 'N/A'
         
@@ -121,6 +135,8 @@ def add():
                     flash("Added Company", "success")
             except Exception as e:
                 # TODO add-9 make message user friendly
+                 #pk 639 
+                 #12/4/2022
                 flash(f" Following exception occured while adding the company: {str(e)}", "danger")
         
     return render_template("add_company.html", form=form)
