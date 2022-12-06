@@ -1,3 +1,4 @@
+-- Active: 1663472091486@@db.ethereallab.app@3306@pk639
 CREATE TABLE
     IS601_MP2_Companies(
         id int auto_increment PRIMARY KEY,
